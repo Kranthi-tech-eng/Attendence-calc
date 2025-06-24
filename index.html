@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attendence calc</title>
+    <link rel="shortcut icon"
+        href="https://c8.alamy.com/comp/P1TCNC/calculator-flat-vector-icon-calc-violet-web-button-math-internet-square-sign-business-modern-design-symbol-in-eps-10-P1TCNC.jpg"
+        type="image/x-icon">
     <style>
-        .btn{
+        .btn {
             background-color: rgb(255, 17, 0);
             width: 80px;
             color: rgb(251, 249, 249);
             cursor: pointer;
-            
+
         }
-        .output{
+
+        .output {
             margin-top: 20px;
             font-size: 18px;
             font-weight: bold;
             text-align: center;
         }
+
         /* body{
             background-color: rgb(199, 196, 186);
             justify-content: center;
@@ -26,32 +32,48 @@
             margin-left: 50%;
             margin-right: 50%;
         } */
-        body, html {
-             background-color: rgb(199, 196, 186);
-  height: 100%;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-        .container{
+        body,
+        html {
+            background-color: rgb(199, 196, 186);
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
             text-align: center;
             width: 300px;
             height: 500px;
             border-radius: 5px solid red;
-            border: 5px solid black;
+            /* border: 5px solid black;
+            border-style: dotted; */
+            border: 1px solid gray;
+  box-shadow: 0 4px 10px rgba(0, 0, 255, 0.4);
+  
+        }
+        .para{
+        position: absolute;
+        bottom: 0;
+        margin-left: 15px;
+        justify-content: center;
+        align-items: center;
         }
     </style>
 </head>
+
 <body>
-    
+
     <div class="container">
         <h1>Hi,To check attendence double click the below button!</h1>
         <button class="btn">click here</button>
         <div class="output"></div>
+        <p class="para">&copy; This website is created by "Kranthi"</p>
     </div>
-    
+
     <script src="script.js"></script>
-    
+
 </body>
+
 </html>
